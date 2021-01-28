@@ -1,4 +1,4 @@
-module github.com/xero-oss/go-xray
+module github.com/pmoosh/go-xray
 
 go 1.12
 
