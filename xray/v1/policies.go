@@ -32,6 +32,7 @@ type BlockDownloadSettings struct {
 type PolicyRuleActions struct {
 	Mails          *[]string              `json:"mails,omitempty"`
 	FailBuild      *bool                  `json:"fail_build,omitempty"`
+	BlockReleaseBundleDownload *bool			`json:"block_release_bundle_distribution,omitempty"`
 	BlockDownload  *BlockDownloadSettings `json:"block_download,omitempty"`
 	Webhooks       *[]string              `json:"webhooks,omitempty"`
 	CustomSeverity *string                `json:"custom_severity,omitempty"`
