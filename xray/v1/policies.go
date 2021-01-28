@@ -37,6 +37,7 @@ type PolicyRuleActions struct {
 	Webhooks       							*[]string              `json:"webhooks,omitempty"`
 	CustomSeverity 							*string                `json:"custom_severity,omitempty"`
 	NotifyWatchRecipents				*bool				 					 `json:"notify_watch_recipients,omitempty"`
+	NotifyDeployer 							*BlockDownload				 `json:"notify_deployer,omitempty"`
 }
 
 type PolicyRule struct {
